@@ -1,0 +1,105 @@
+Extends General Problem Solving
+
+This document details how to generally solve Software Problems.
+It establishes a layout framework to use, followed by various Heuristics.
+
+------------------------------------------------------------------------------------------------------------------------
+Every problem in software can be laid out as a set of
+
+Building a software system and mastering system design require understanding several foundational principles
+and components. You should break your induction and deduction down by these requirements. By reviewing these principals
+you can built out induction and deduction graphs upon which you can iterate upon to your final solution.
+
+
+ Here’s a structured view of the key areas:
+
+1. Core Foundations of System Design
+
+These are the essential concepts you need to know:
+
+1.1 Requirements Analysis
+	•	Functional Requirements: What the system should do (features, behaviors).
+	•	Non-Functional Requirements (NFRs):
+	•	Performance (latency, throughput).
+	•	Scalability (horizontal/vertical).
+	•	Reliability (uptime, fault tolerance).
+	•	Availability (SLA percentages, failovers).
+	•	Extensibility/Maintainability (ease of updates and debugging).
+	•	Security (data encryption, authentication).
+	•	Usability (user experience, accessibility).
+
+1.2 Architectural Principles
+	•	Modularity: Break the system into smaller, manageable components.
+	•	Separation of Concerns: Keep components focused on a single responsibility.
+	•	Loose Coupling: Minimize dependencies between modules.
+	•	High Cohesion: Keep related functionality within the same module.
+	•	Scalability Patterns: Horizontal vs. vertical scaling, partitioning.
+
+1.3 Design Patterns
+	•	Structural Patterns:
+        •	Microservices.
+        •	Monolithic architecture.
+        •	Event-driven architecture.
+        •	Behavioral Patterns:
+        •	Observer (e.g., event-driven systems).
+        •	State machine (e.g., payment workflows).
+        •	Creational Patterns: Factory, Singleton (e.g., connection pools).
+
+1.4 Data Management
+	•	Database Design:
+        •	Relational Databases (e.g., SQL): Suitable for ACID transactions.
+        •	NoSQL Databases (e.g., MongoDB, DynamoDB): Suitable for unstructured data and scalability.
+        •	Indexes: Optimize queries.
+        •	Sharding: Distribute data across multiple nodes.
+        •	Caching: Reduce database load (e.g., Redis, Memcached).
+
+1.5 Scalability and Performance
+	•	Load Balancing: Distribute traffic across multiple servers.
+	•	Caching Layers:
+	•	CDN (Content Delivery Network) for static assets.
+	•	Application-level caching for frequently accessed data.
+	•	Asynchronous Processing:
+	•	Queues (e.g., RabbitMQ, Kafka).
+	•	Background jobs (e.g., Celery, Sidekiq).
+	•	Rate Limiting: Prevent abuse and ensure fair usage.
+
+1.6 Reliability and Fault Tolerance
+	•	Redundancy: Duplicate components (servers, databases) for failover.
+	•	Replication: Database replication for high availability.
+	•	Health Checks: Monitor services for failures.
+	•	Failover Mechanisms: Switch to backup resources on failure.
+	•	Backups and Disaster Recovery: Regular backups and recovery plans.
+
+1.7 Security
+	•	Authentication and Authorization:
+        •	OAuth, JWT, role-based access control.
+        •	Data Encryption:
+        •	In-transit (e.g., HTTPS, TLS).
+        •	At-rest (e.g., AES encryption).
+        •	Firewalls and Secure APIs:
+        •	API gateways with rate limiting and validation.
+    •	Audit Logs: Record system activity for compliance and debugging.
+
+1.8 Networking, APIs, and Communication
+	-   Networking Fundamentals
+	•	API Design:
+        •	REST: Stateless and scalable.
+        •	GraphQL: Flexible querying.
+        •	gRPC: High-performance, binary-based communication.
+	•	Communication Patterns:
+        •	Synchronous: HTTP requests.
+        •	Asynchronous: Messaging queues, WebSockets.
+        •	Data Serialization:
+        •	JSON, XML, Protocol Buffers (Protobuf).
+
+1.9 Observability and Monitoring
+	•	Logging: Centralized logging for error tracking (e.g., ELK stack).
+	•	Metrics: Collect system performance metrics (e.g., Prometheus, Grafana).
+	•	Tracing: Monitor request flows in distributed systems (e.g., Jaeger, OpenTelemetry).
+	•	Alerting: Automated notifications for system failures.
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+Heuristics
