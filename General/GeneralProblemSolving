@@ -33,7 +33,6 @@ mental exercise.
         simplified them into things you know. Or build your foundations until you can build them into what yoiu want
         ***(BOTTOM-UP METHOD)***
 
-
     - Tips for Creating Suggestions for Solution
         Here are some tricks to help you create solutions
         - **Start by defining a brute force solution. That establishes a good baseline to work off of.**
@@ -56,6 +55,14 @@ mental exercise.
 	    - Un-Priming Algorithm: Identify your biases and shed them if needed. Mentally transport yourself to a
 	    new room and start anew. This helps you move without biases, which may stop you from moving forward.
 
+    - Think Slow or Fast
+        - Slow Thinking: Evaluating your induction/deduction graph
+        - Fast Thinking: Improving the induction basis via learning and/or building suggestions, or further breaking
+                         down deduction graph into more understandable concepts.
+        - You can perform the induction and deduction cycle fast, but that avoids using exclusive sets and complex logic.
+          The current recommendation is to transition to slow thinking every hour. Working too fast may lead nowhere
+          as your induction and deduction layout graph may have created dead branches or lack foundational branches.
+
 <h1 style=color:LightGreen>3. Create a Solution</h1>
 This is simple, you have it all planned out. Go create it.
 
@@ -65,3 +72,15 @@ This is simple, you have it all planned out. Go create it.
     1. Understand the problem
     2. Perform an Induction-Deduction Cycle to get your solution
 	3. Create a Solution
+
+	NOTE: Whenever stuck or 1 hour in, transition to slow thinking to reevaluate the graph quality, then proceed to
+	fast thinking.
+
+---------
+Current Habits to Improve
+1. Transitioning to Slow Thinking
+ - Particularly need to apply Slow Thinking to analyze deduction into finer concepts (based on what I have induced, I
+    might be able to
+   further deduce what I need)
+2. Creating Induction Deduction Graphs
+3. Learning concepts to make Fast Thinking more aware and efficient. TO BE ADDED TO
