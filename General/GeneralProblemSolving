@@ -1,0 +1,67 @@
+<title> Creating a Solution</title>
+Everything can be viewed as having a solution (not every solution is what you desire). You are trying to turn your
+deduction into induction via an alignment of foundations and abstract thoughts.
+
+Here is a structured process that can be used to intelligently and efficiently create a solution.
+- This applies only to logical solutions. When logic must be thrown out the window. This is of limited use.*
+
+<h1 style=color:LightGreen>1. Lay out the foundations for Deduction and Induction</h1>
+First, understand what you are working with and where you want to go. Lay out what you can deduce and induce from.
+1. Read and note down what you are trying to create
+2. Establish your inputs and outputs.
+    1. Treat your creation like a black box with inputs and outputs. This black box is the solution you are trying to
+    create. Your goal is to understand the intricacies of the black box such that you can create it.
+3. Establish the constants of the black box.
+4. Establish the variables of the black box.
+5. Establish how to/what would confirm the creation of the solution (the test cases).
+
+<h2>Ensuring the Complete Coverage of Your Solution</h2>
+Use sets to help you cover all possible inputs (and potential outputs). Using the rules of logic, you can
+define complete sets and partial sets.
+
+
+<h1 style=color:LightGreen>2. Design the Solution</h1>
+Based on the first 5 steps, you should now be able to build suggestions to get solutions.
+Remember to begin by answering the question. Your suggestion must be guided towards a solution, otherwise it is merely
+mental exercise.
+1. Generate Suggestions from What you Know, Reupdate the layer of induction and deduction that you have.
+2. Keep repeating previous steps until Induction = Deduction.
+
+    - Logic behind this
+        1. You only know what you know. So, first try to see if you can break down the solution into solutions
+        you can already create ***(TOP DOWN METHOD).*** Continue to break down solutions until you have
+        simplified them into things you know. Or build your foundations until you can build them into what yoiu want
+        ***(BOTTOM-UP METHOD)***
+
+
+    - Tips for Creating Suggestions for Solution
+        Here are some tricks to help you create solutions
+        - **Start by defining a brute force solution. That establishes a good baseline to work off of.**
+        - _**Utilize formulas and previous solutions.**_
+            - For example, given the solution of 1 + 1 = 2, and the concept of multiplication
+            $$ 2 * 2 = 2 + 2 = 1 + 1 + 1 + 1 = 4 $$
+        - _**Reframe the black box.**_ Remember that every solution you have built in your life
+        follows the same thought process. All you have to do is transpose one solution to another.
+        Your experience in cooking can help you solve your experience in building a skyscraper.
+        - **Unprime Yourself** - Sometimes it is good to reset your brain so it can see thinbgs in adifferent light.
+        - _**Trust your gut.**_ You’ve created so many solutions. Trust in your mind.
+        Give yourself some free reign to figure it out. Extrapolate from what you know.
+        Try something out of left field. Some solutions haven’t been created yet and require creativity.
+        Sometimes you have to take a leap of faith and try something new and fresh. This applies to creating art,
+        working on groundbreaking technologies, etc.
+
+    - What if I'm stuck?
+	    - If you're stuck, you must identify why. If you have exhausted all downward paths, it may be time to
+	     work your way back up from the bottom (induction).
+	    - Un-Priming Algorithm: Identify your biases and shed them if needed. Mentally transport yourself to a
+	    new room and start anew. This helps you move without biases, which may stop you from moving forward.
+
+<h1 style=color:LightGreen>3. Create a Solution</h1>
+This is simple, you have it all planned out. Go create it.
+
+
+-------
+<h3>Short summary of designing a solution:</h3>
+    1. Understand the problem
+    2. Perform an Induction-Deduction Cycle to get your solution
+	3. Create a Solution
