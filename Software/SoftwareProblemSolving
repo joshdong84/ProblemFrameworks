@@ -25,6 +25,7 @@ These are the essential concepts you need to know:
 	•	Reliability (uptime, fault tolerance).
 	•	Availability (SLA percentages, failovers).
 	•	Extensibility/Maintainability (ease of updates and debugging).
+	    - Dev Experience Quality
 	•	Security (data encryption, authentication).
 	•	Usability (user experience, accessibility).
 
